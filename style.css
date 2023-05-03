@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.overhead {
+	background-color: #242424;
+	color: white;
+	position: relative;
+	top: 175px;
+	height: 809px;
+}
+
+.overhead-desc {
+	position: relative;
+	height: 14%;
+	width: 50%;
+	left: 25%;
+	top: 27%;
+	text-align: justify;
+	font-size: 20px;
+	border: 3px double orange;
+	padding: 10px;
+}
+
+.orange {
+	color: orange;
+}
+
+.circle {
+	width: 150px;
+	position: absolute;
+	border-radius: 500px;
+	box-shadow: 0 0 0 3px orange;
+	left: 380px;
+	top: 5%;
+}
+
+.overhead-name {
+	color: white;
+	position: absolute;
+	left: 550px;
+	top: 40px;
+	font-size: 50px;
+}
+
+hr {
+	color: orange;
+	position: absolute;
+	width: 100%;
+	top: -8px;
+	border: 3px double orange;
+}
