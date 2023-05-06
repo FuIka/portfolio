@@ -1,7 +1,7 @@
 body {
-	margin: 0;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	user-select: none; 
+	margin: 0;
 }
 
 .overhead {
@@ -9,20 +9,20 @@ body {
 	color: white;
 	position: relative;
 	top: 175px;
-	height: 1200px;
+	height: 1970px;
 }
 
 .overhead-desc {
-	position: relative;
-	height: auto;
-	width: 50%;
-	left: 25%;
-	top: 16.5%;
-	text-align: justify;
 	font-size: 20px;
 	border: 3px double orange;
-	padding: 10px;
+	padding: 11px;
+	text-align: justify;
 	overflow: hidden;
+	height: auto;
+	width: 50%;
+	position: relative;
+	left: 25%;
+	top: 12.5%;
 }
 
 .orange {
@@ -30,47 +30,46 @@ body {
 }
 
 .circle {
+	border-radius: 150px;
+	box-shadow: 0 0 0 3px orange;
 	width: 150px;
 	position: absolute;
-	border-radius: 500px;
-	box-shadow: 0 0 0 3px orange;
 	left: 27%;
-	top: 2%;
+	top: 2.5%;
 }
 
 .overhead-name {
 	color: white;
+	font-size: 50px;
 	position: absolute;
 	left: 39%;
 	top: 1.5%;
-	font-size: 50px;
 }
 
 hr {
 	color: orange;
-	position: absolute;
-	width: 99.7%;
-	top: -8px;
 	border: 3px double orange;
+	width: 99.7%;
 	overflow: hidden;
+	position: absolute;
+	top: -8px;
 }
 
 .button-social {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
+	width: 100%;
     height: 60px;
-    overflow: hidden;
+	overflow: hidden;
 	position: absolute;
-	top: 31%;
+	top: 22.5%;
+	display: flex;
+    justify-content: center;
 }
 
 .button-social div {
+	transition: transform 0.25s;
 	position: relative;
 	top: -40px;
     margin: 50px;
-	transition: transform 0.25s;
 }
 
 .button-social div:hover {
@@ -82,72 +81,87 @@ hr {
 }
 
 .button-use {
-	color: transparent;
 	background-color: transparent;
+	color: transparent;
 	border: none;
 }
 
 .object {
-	height: 650px;
-	display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+	height: 700px;
 	position: relative;
-	top: 350px;
+	top: 400px; 
+	display: block;
+	flex-wrap: nowrap;
 }
 
 .object-core {
-	overflow: hidden;
 	border: 3px double orange;
-	margin: 15px;
-	width: 500px;
-	height: 600px;
+	width: 90%;
+	height: 45%;
+	overflow: hidden;
+	position: relative;
+	left: 5%;
+	margin-bottom: 15px;
 }
 
 .object-core-cube {
 	background-color: orange;
-	width: 80px;
-	height: 80px;
-	margin: 5px;
+	width: 60px;
+	height: 60px;
 	position: relative;
-	top: -238px;
+	margin: 5px;
+	overflow: hidden;
 }
 
 .object-core-rectangle {
 	background-color: orange;
+	width: 94.1%;
+	height: 11%;
 	position: relative;
-	left: 90px;
-	top: -323px;
-	width: 342px;
-	height: 35px;
+	left: 5.1%;
+	bottom: 20.6%;
+	margin: 5px;
 }
 
 .object-core-text {
-	position: relative;
-	left: 90px;
-	top: -320px;
-	height: 45px;
-	width: 342px;
+	font-size: 17.2px;
+	overflow: hidden;
 	text-align: justify;
 	line-height: 1.2;
+	width: 98%;
+	height: 16%;
+	position: relative;
+	top: -45px;
+	margin: 1%;
 }
 
 .object-core-name {
-	position: relative;
 	font-size: 25px;
-	left: 5px;
-}
-
-.object-core-image {
-	width: 95.5%;
 	position: relative;
-	left: 2.25%;
-	top: 59.5%;
+	left: 0.5%;
 }
 
 .object-core-logo {
-	width: 70px;
+	width: 85%;
 	position: relative;
-	left: 5px;
-	top: 5px;
+	left: 5%;
+	top: 5%;
+}
+
+.object-core-image {
+	background-color: red;
+	position: relative;
+	bottom: 20%;
+	margin: 0.5%;
+	height: 192px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.object-core-block {
+	background-color: blue;
+	width: 25%;
+	height: 94%;
+	margin: 0.5%;
 }
